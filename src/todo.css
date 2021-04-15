@@ -1,0 +1,34 @@
+button.complete, button.incomplete{
+    min-height: 2rem;
+    margin-top: 1.5rem;
+    min-width: 15rem;
+    cursor: pointer;
+}
+button.complete{
+    background: chartreuse;
+    cursor: pointer;
+}
+button.remove{
+    background: #e7b322;
+    font-weight: bold;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+button.remove:hover{
+    background: #d63636;
+    transition: 0.5s ease-in;
+}
+.input{
+    min-width: 15rem;
+    min-height: 1.5rem;
+    border-width: 0.1rem;
+}
+button.suggest{
+    color: darkblue;
+    height: 1.7rem;
+    width: 4rem;
+    margin-left: 0.5rem;
+    border-width: 0.08rem;
+}
